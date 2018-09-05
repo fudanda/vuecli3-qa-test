@@ -1,0 +1,102 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "echarts": "^4.1.0",
+    "mavon-editor": "^2.6.15",
+    "quasar-extras": "^2.0.4",
+    "quasar-framework": "^0.17.0",
+    "register-service-worker": "^1.0.0",
+    "v-charts": "^1.17.10",
+    "vue": "^2.5.17",
+    "vue-i18n": "^8.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-plugin-pwa": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "axios": "^0.18.0",
+    "postcss-rtl": "^1.2.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-axios": "^0.0.4",
+    "vue-cli-plugin-i18n": "^0.5.0",
+    "vue-cli-plugin-quasar": "^0.2.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/strongly-recommended",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/html-end-tags": "off",
+      "vue/html-self-closing": "off",
+      "vue/no-multi-spaces": "off",
+      "vue/no-async-in-computed-properties": "off",
+      "vue/no-dupe-keys": "off",
+      "vue/no-duplicate-attributes": "off",
+      "vue/no-parsing-error": "off",
+      "vue/no-reserved-keys": "off",
+      "vue/no-shared-component-data": "off",
+      "vue/no-side-effects-in-computed-properties": "off",
+      "vue/no-template-key": "off",
+      "vue/no-textarea-mustache": "off",
+      "vue/no-unused-vars": "off",
+      "vue/require-component-is": "off",
+      "vue/require-render-return": "off",
+      "vue/require-v-for-key": "off",
+      "vue/require-valid-default-prop": "off",
+      "vue/return-in-computed-property": "off",
+      "vue/valid-template-root": "off",
+      "vue/valid-v-bind": "off",
+      "vue/valid-v-cloak": "off",
+      "vue/valid-v-else-if": "off",
+      "vue/valid-v-else": "off",
+      "vue/valid-v-for": "off",
+      "vue/valid-v-html": "off",
+      "vue/valid-v-if": "off",
+      "vue/valid-v-model": "off",
+      "vue/valid-v-on": "off",
+      "vue/valid-v-once": "off",
+      "vue/valid-v-pre": "off",
+      "vue/valid-v-show": "off",
+      "vue/valid-v-text": "off",
+      "vue/attribute-hyphenation": "off",
+      "vue/html-indent": "off",
+      "vue/max-attributes-per-line": "off",
+      "vue/mustache-interpolation-spacing": "off",
+      "vue/name-property-casing": "off",
+      "vue/require-default-prop": "off",
+      "vue/require-prop-types": "off",
+      "vue/v-bind-style": "off",
+      "vue/v-on-style": "off"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

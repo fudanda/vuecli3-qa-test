@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["1e4b"],{"1e4b":function(e,n,t){"use strict";t.r(n);var l=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("a",{attrs:{href:""}},[e._v("helloworld")])},o=[],r=t("2877"),s={},u=Object(r["a"])(s,l,o,!1,null,null,null);u.options.__file="index.vue";n["default"]=u.exports}}]);
+//# sourceMappingURL=1e4b.de6bcd1c.js.map

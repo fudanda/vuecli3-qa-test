@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["5d8a"],{"5d8a":function(e,n,t){"use strict";t.r(n);var u=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div")},l=[],a=t("2877"),i={},o=Object(a["a"])(i,u,l,!1,null,null,null);o.options.__file="menu.vue";n["default"]=o.exports}}]);
+//# sourceMappingURL=5d8a.d5d2651e.js.map
